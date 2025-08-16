@@ -1,0 +1,46 @@
+# ========================
+# Archivos comunes
+# ========================
+.DS_Store
+Thumbs.db
+.env
+*.log
+*.cache
+node_modules/
+dist/
+build/
+.vscode/
+.idea/
+
+# ========================
+# React (frontend)
+# ========================
+/front/node_modules/
+/front/dist/
+/front/build/
+/front/.env
+/front/.DS_Store
+
+# ========================
+# CodeIgniter 4 (backend)
+# ========================
+/backend/writable/cache/*
+/backend/writable/logs/*
+/backend/writable/session/*
+/backend/writable/debugbar/*
+!/backend/writable/index.html
+
+/backend/vendor/
+/backend/.env
+/backend/.DS_Store
+/backend/app/Config/Database.php
+/backend/app/Config/App.php
+/backend/app/Config/Paths.php
+
+/backend/public/uploads/*
+/backend/public/uploads/.gitkeep
+
+/backend/system/*
+/backend/tests/*
+/backend/vendor/*
+/backend/writable/*
