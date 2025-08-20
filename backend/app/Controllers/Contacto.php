@@ -67,9 +67,9 @@ class Contacto extends BaseController
             $mail->isHTML(true);
             // **************************************************************LOCALHOST**************************************************************
             // IMAGEN DE CARRERA HORTENSIAS D:\Programas Instalados\XAMPP\htdocs\AmiFitCompleto\public\img\logo\amifitAzul.png
-            $mail->AddEmbeddedImage($_SERVER['DOCUMENT_ROOT'] . '/AmifitCobro/BACKEND/public/img/logo/amifitAzul.png', 'amifitAzul', 'amifitAzul.png');
+            $mail->AddEmbeddedImage($_SERVER['DOCUMENT_ROOT'] . '/1.-COBRO-AMIFIT/BACKEND/public/img/logo/amifitAzul.png', 'amifitAzul', 'amifitAzul.png');
             // IMAGEN DEL QR
-            $mail->AddEmbeddedImage($_SERVER['DOCUMENT_ROOT'] . '/AmifitCobro/BACKEND/public/img/sociosClase/' . $idSocio . '/' . $idInscripcion . '.png', $idInscripcion, $idInscripcion . '.png');
+            $mail->AddEmbeddedImage($_SERVER['DOCUMENT_ROOT'] . '/1.-COBRO-AMIFIT/BACKEND/public/img/sociosClase/' . $idSocio . '/' . $idInscripcion . '.png', $idInscripcion, $idInscripcion . '.png');
 
 
 
