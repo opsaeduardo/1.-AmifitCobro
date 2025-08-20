@@ -1,8 +1,9 @@
 import React from 'react'
+import StandBy from '../../components/common/StandBy'
 
 function EntrenamientoInfo() {
     return (
-        <div>EntrenamientoInfo</div>
+         <StandBy />
     )
 }
 

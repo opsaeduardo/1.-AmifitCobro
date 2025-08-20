@@ -1,8 +1,9 @@
 import React from 'react'
+import StandBy from '../../components/common/StandBy'
 
 function ProductosInfo() {
   return (
-    <div>ProductosInfo</div>
+     <StandBy />
   )
 }
 
